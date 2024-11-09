@@ -6,7 +6,13 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    
+    //cidade 1
+    int pontos_turisticos; codigo_da_cidade
+    float pib; area; população;
+    char  nome [50]
+
+        
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
