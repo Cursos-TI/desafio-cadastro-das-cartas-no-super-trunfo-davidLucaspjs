@@ -9,6 +9,11 @@ int main() {
     //cidade 1
     char nome [50];
     int pontos_turisticos;
+    char codigo_da_cidade [10];
+
+
+    printf("Digite o código da cidade: \n");
+    scanf("%s", &codigo_da_cidade);
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", &nome);
@@ -18,6 +23,8 @@ int main() {
 
         printf("Cidade: %s\n", nome);
         printf("Pontos turisticos: %d\n", pontos_turisticos);
+        printf("Pontos turisticos: %d\n", pontos_turisticos);
+   
 
 
 }
