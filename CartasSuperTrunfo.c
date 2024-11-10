@@ -21,10 +21,10 @@ int main() {
     printf("Quantos pontos turisticos há na cidade? \n");
     scanf("%d", &pontos_turisticos);
 
+        printf("Código da cidade:  %s\n", codigo_da_cidade);
         printf("Cidade: %s\n", nome);
         printf("Pontos turisticos: %d\n", pontos_turisticos);
-        printf("Pontos turisticos: %d\n", pontos_turisticos);
-   
+       
 
 
 }
