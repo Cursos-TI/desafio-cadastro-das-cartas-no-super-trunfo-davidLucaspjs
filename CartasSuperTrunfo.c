@@ -7,16 +7,18 @@
 
 int main() {
     //cidade 1
-    int pontosturisticos = 10
-  
-    float pib = 10.000,000; area = 1.000,000; populacao = 20.000,000;
-  
-    char  nome[50];
+    char nome [50];
+    int pontos_turisticos;
 
-        printf("Digite o nome da cidade 1: \n");
-        scanf("%s", &nome);
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &nome);
+    
+    printf("Quantos pontos turisticos há na cidade? \n");
+    scanf("%d", &pontos_turisticos);
 
-        printf("Digite o codigo d cidade1: \n");
+        printf("Cidade: %s\n", nome);
+        printf("Pontos turisticos: %d\n", pontos_turisticos);
+
 
 }
         
